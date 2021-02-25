@@ -1,0 +1,35 @@
+/* .ivu-layout-sider{
+    background: #001529 !important;
+} */
+.logo-con{
+    height: 64px;
+    padding: 10px;
+}
+.logo-con img{
+    height: 44px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+.layout-header-bar{
+    background: #fff !important;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+.main-content-con{
+    height:calc(100% - 60px);
+    overflow: hidden;
+}
+.main-layout-con{
+    height: 100%;
+    overflow: hidden;
+}
+.content-wrapper{
+    padding: 5px;
+    height: calc(100% - 50px);
+    overflow:auto;
+  }
+.tag-nav-wrapper{
+    padding: 0;
+    height:40px;
+    background:#F0F0F0;
+}
