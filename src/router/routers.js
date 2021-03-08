@@ -171,6 +171,38 @@ export default [
           component:resolve=>(require(["@/view/tong/tongji"],resolve))
         }
       ]
+    },
+    {
+      path: '/video',
+      name: 'video',
+      component:resolve=>(require(["@/components/main"],resolve)),
+      meta:{
+        title:"视频课程",
+        icon:"ios-reorder",
+        isshow:true
+      },
+      children:[
+        {
+          path: 'videocourse',
+          name: 'course',
+          meta:{
+            title:"视频课程",
+            icon:"ios-reorder",
+            isshow:true
+          },
+          component:resolve=>(require(["@/view/video/videocourse"],resolve))
+        },
+        {
+          path: 'peopleNumber',
+          name: 'Number',
+          meta:{
+            title:"查看人次",
+            icon:"ios-reorder",
+            isshow:false
+          },
+          component:resolve=>(require(["@/view/video/peopleNumber"],resolve))
+        }
+      ]
     }
   ]
 
